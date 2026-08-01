@@ -7,30 +7,33 @@
 ## Phase 1 — Project Setup & Data Loading
 > Goal: Load all CSVs, establish repo structure, create entry point.
 
-- [ ] Create `code/` directory with `__init__.py`
-- [ ] Create `code/io_utils.py` — CSV loading helpers for all 13 dataset files
-- [ ] Create `code/main.py` — orchestrator entry point (runs loading, pre-computation, and inference loop)
-- [ ] Validate: all 265 `message_id`s can be read from `messages.csv`
-- [ ] Set up `.env` file + `python-dotenv` loading for `GEMINI_API_KEY`
-- [ ] Add `requirements.txt` with all dependencies
+- [x] Create `code/` directory with `__init__.py`
+- [x] Create `code/io_utils.py` — CSV loading helpers for all 13 dataset files
+- [x] Create `code/main.py` — orchestrator entry point (runs loading, pre-computation, and inference loop)
+- [x] Validate: all `message_id`s can be read from `messages.csv` (current file has 110 rows)
+- [x] Set up `.env` file + `python-dotenv` loading for `GEMINI_API_KEY`
+- [x] Add `requirements.txt` with all dependencies
 
 ---
 
 ## Phase 2 — Pydantic Profile Models & Pre-computation
 > Goal: Define all schemas and build user profile objects from the CSVs before inference.
 
-- [ ] Create `code/schemas.py` and define all Pydantic models:
-  - [ ] `UserBaseProfile` (users.csv + daily_notification_summary.csv)
-  - [ ] `UserGroupProfile` (group_members.csv + groups.csv)
-  - [ ] `UserBusinessProfile` (user_business_history.csv + business_accounts.csv)
-  - [ ] `BehavioralMemoryProfile` (message_history.csv + message_events.csv)
-  - [ ] `PairProfile` (built at inference time per sender→receiver pair)
-  - [ ] `RouterOutput` (observational structured data returned by model client)
-  - [ ] `RoutingDecision` (final actions, confidence, and reasons)
-- [ ] Create `code/profiles.py` with builder logic:
-  - [ ] Implement `build_all_profiles(data: DataStore) -> ProfileStore` function
-- [ ] Validate: profiles cover all `user_id`s in `messages.csv`
-- [ ] Spot-check 3–5 sample profiles manually against CSV values
+- [x] Create `code/schemas.py` and define all Pydantic models:
+  - [x] `UserBaseProfile` (users.csv + daily_notification_summary.csv)
+  - [x] `UserGroupProfile` (group_members.csv + groups.csv)
+  - [x] `UserBusinessProfile` (user_business_history.csv + business_accounts.csv)
+  - [x] `BehavioralMemoryProfile` (message_history.csv + message_events.csv)
+  - [x] `PairProfile` (built at inference time per sender→receiver pair)
+  - [x] `RouterOutput` (observational structured data returned by model client)
+  - [x] `RoutingDecision` (final actions, confidence, and reasons)
+- [x] Create `code/profiles.py` with builder logic:
+  - [x] Implement `build_all_profiles(data: DataStore) -> ProfileStore` function
+  - [x] Implement serialization/deserialization to JSON in `profiles/` directory to cache profiles between runs
+- [x] Create empty `profiles/` directory to store cache
+- [x] Validate: profiles cover all `user_id`s in `messages.csv`
+- [x] Spot-check 3–5 sample profiles manually against CSV values
+
 
 ---
 
@@ -90,14 +93,14 @@
 ---
 
 ## Phase 8 — Full Inference Pipeline & Output Generation
-> Goal: Run the end-to-end pipeline over all 265 messages and write valid `output.csv`.
+> Goal: Run the end-to-end pipeline over all 110 messages and write valid `output.csv`.
 
 - [ ] Connect orchestration logic in `code/main.py` (load -> pre-compute -> inference loop -> write)
 - [ ] Implement batching/rate-limit handling for Gemini API calls
 - [ ] Implement progress logging (print message_id + action as each row completes)
 - [ ] Write predictions to `dataset/output.csv` in the exact required column order
 - [ ] Validate output:
-  - [ ] Exactly 265 rows (one per message_id)
+  - [ ] Exactly 110 rows (one per message_id)
   - [ ] All `action` values are valid (`notify`, `digest`, `mute`)
   - [ ] All `message_type` values are one of the 11 allowed types
   - [ ] `confidence` values are floats between 0 and 1

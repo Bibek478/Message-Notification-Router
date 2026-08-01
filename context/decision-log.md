@@ -4,12 +4,12 @@ This log records the core design and architectural decisions made for the WhatsA
 
 ---
 
-## [2026-08-01] DEC-01: Profile Pre-computation Strategy
+## [2026-08-01] DEC-01: Profile Pre-computation and Caching Strategy
 
 * **Status:** Accepted
-* **Context:** The system needs access to historical user behaviour, group relationships, and business interactions to make personalized notification decisions. Generating these on the fly from raw CSV files for every message is too slow and token-inefficient.
-* **Decision:** Pre-compute structured Profiles (using Pydantic models) for all users, groups, and businesses from the dataset CSVs *before* starting the inference loop. At inference time, retrieve these pre-computed profiles and dynamically compute a sender-receiver `PairProfile`.
-* **Rationale:** Reduces LLM context token usage, isolates data loading and aggregation from the inference engine, and provides clean schemas (`UserBaseProfile`, `UserGroupProfile`, `UserBusinessProfile`, `BehavioralMemoryProfile`) to the prompt builder.
+* **Context:** The system needs access to historical user behaviour, group relationships, and business interactions to make personalized notification decisions. Generating these on the fly from raw CSV files for every message is too slow and token-inefficient. Also, re-parsing these CSVs on every run introduces startup latency.
+* **Decision:** Pre-compute structured Profiles (using Pydantic models) for all users, groups, and businesses from the dataset CSVs before starting the inference loop, and save them in JSON format in a new directory called `profiles/` at the project root. During runs, the system loads these JSONs if they exist, falling back to parser computation only if they are missing or outdated. At inference time, retrieve these profiles and dynamically compute a sender-receiver `PairProfile`.
+* **Rationale:** Reduces LLM context token usage, isolates data loading and aggregation, and eliminates compute startup overhead on repeated execution runs by caching profile structures in readable JSON format.
 
 ---
 

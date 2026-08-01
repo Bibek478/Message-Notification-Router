@@ -1,0 +1,6657 @@
+{
+  "cache_version": 1,
+  "dataset_fingerprint": {
+    "users.csv": {
+      "size": 1731,
+      "mtime_ns": 1785596608025928600
+    },
+    "daily_notification_summary.csv": {
+      "size": 16781,
+      "mtime_ns": 1785596607716045700
+    },
+    "groups.csv": {
+      "size": 1586,
+      "mtime_ns": 1785596607721696200
+    },
+    "group_members.csv": {
+      "size": 18412,
+      "mtime_ns": 1785596607720205300
+    },
+    "business_accounts.csv": {
+      "size": 9725,
+      "mtime_ns": 1785596607714942100
+    },
+    "user_business_history.csv": {
+      "size": 9047,
+      "mtime_ns": 1785596608024842200
+    },
+    "message_history.csv": {
+      "size": 77010,
+      "mtime_ns": 1785596608016011200
+    },
+    "message_events.csv": {
+      "size": 13403,
+      "mtime_ns": 1785596608014437000
+    },
+    "images.csv": {
+      "size": 700,
+      "mtime_ns": 1785596607723786500
+    },
+    "voice_notes.csv": {
+      "size": 428,
+      "mtime_ns": 1785596608027241000
+    },
+    "messages.csv": {
+      "size": 23248,
+      "mtime_ns": 1785596608018658100
+    },
+    "sample_messages.csv": {
+      "size": 10049,
+      "mtime_ns": 1785596608022519200
+    }
+  },
+  "profile_store": {
+    "user_base_profiles": {
+      "u_001": {
+        "user_id": "u_001",
+        "dnd_window": [
+          "22:00",
+          "07:00"
+        ],
+        "openness_rate": 0.7377049180327869,
+        "reply_rate": 0.17777777777777778,
+        "dismissal_rate": 0.22950819672131148,
+        "report_tendency": 2,
+        "avg_daily_notifications": 4.357142857142857,
+        "avg_daily_dismissed": 1.0
+      },
+      "u_002": {
+        "user_id": "u_002",
+        "dnd_window": [
+          "23:00",
+          "08:00"
+        ],
+        "openness_rate": 0.5048543689320388,
+        "reply_rate": 0.21153846153846154,
+        "dismissal_rate": 0.18446601941747573,
+        "report_tendency": 4,
+        "avg_daily_notifications": 7.357142857142857,
+        "avg_daily_dismissed": 1.3571428571428572
+      },
+      "u_003": {
+        "user_id": "u_003",
+        "dnd_window": [
+          "21:30",
+          "07:30"
+        ],
+        "openness_rate": 0.7468354430379747,
+        "reply_rate": 0.23728813559322035,
+        "dismissal_rate": 0.3037974683544304,
+        "report_tendency": 1,
+        "avg_daily_notifications": 5.642857142857143,
+        "avg_daily_dismissed": 1.7142857142857142
+      },
+      "u_004": {
+        "user_id": "u_004",
+        "dnd_window": [
+          "00:00",
+          "06:30"
+        ],
+        "openness_rate": 0.6055045871559633,
+        "reply_rate": 0.25757575757575757,
+        "dismissal_rate": 0.26605504587155965,
+        "report_tendency": 3,
+        "avg_daily_notifications": 7.785714285714286,
+        "avg_daily_dismissed": 2.0714285714285716
+      },
+      "u_005": {
+        "user_id": "u_005",
+        "dnd_window": [
+          "22:30",
+          "07:00"
+        ],
+        "openness_rate": 0.8111111111111111,
+        "reply_rate": 0.273972602739726,
+        "dismissal_rate": 0.37777777777777777,
+        "report_tendency": 0,
+        "avg_daily_notifications": 6.428571428571429,
+        "avg_daily_dismissed": 2.4285714285714284
+      },
+      "u_006": {
+        "user_id": "u_006",
+        "dnd_window": [
+          "21:00",
+          "06:00"
+        ],
+        "openness_rate": 0.975609756097561,
+        "reply_rate": 0.2875,
+        "dismissal_rate": 0.36585365853658536,
+        "report_tendency": 2,
+        "avg_daily_notifications": 5.857142857142857,
+        "avg_daily_dismissed": 2.142857142857143
+      },
+      "u_007": {
+        "user_id": "u_007",
+        "dnd_window": [
+          "22:00",
+          "07:00"
+        ],
+        "openness_rate": 0.39285714285714285,
+        "reply_rate": 0.13636363636363635,
+        "dismissal_rate": 0.45535714285714285,
+        "report_tendency": 2,
+        "avg_daily_notifications": 8.0,
+        "avg_daily_dismissed": 3.642857142857143
+      },
+      "u_008": {
+        "user_id": "u_008",
+        "dnd_window": [
+          "23:30",
+          "07:30"
+        ],
+        "openness_rate": 1.0217391304347827,
+        "reply_rate": 0.30851063829787234,
+        "dismissal_rate": 0.43478260869565216,
+        "report_tendency": 1,
+        "avg_daily_notifications": 6.571428571428571,
+        "avg_daily_dismissed": 2.857142857142857
+      },
+      "u_009": {
+        "user_id": "u_009",
+        "dnd_window": [
+          "22:00",
+          "08:30"
+        ],
+        "openness_rate": 0.9007633587786259,
+        "reply_rate": 0.3474576271186441,
+        "dismissal_rate": 0.0916030534351145,
+        "report_tendency": 0,
+        "avg_daily_notifications": 9.357142857142858,
+        "avg_daily_dismissed": 0.8571428571428571
+      },
+      "u_010": {
+        "user_id": "u_010",
+        "dnd_window": [
+          "22:30",
+          "07:30"
+        ],
+        "openness_rate": 0.4036697247706422,
+        "reply_rate": 0.1590909090909091,
+        "dismissal_rate": 0.3577981651376147,
+        "report_tendency": 0,
+        "avg_daily_notifications": 7.785714285714286,
+        "avg_daily_dismissed": 2.7857142857142856
+      },
+      "u_011": {
+        "user_id": "u_011",
+        "dnd_window": [
+          "21:30",
+          "06:30"
+        ],
+        "openness_rate": 0.773109243697479,
+        "reply_rate": 0.30434782608695654,
+        "dismissal_rate": 0.15126050420168066,
+        "report_tendency": 1,
+        "avg_daily_notifications": 8.5,
+        "avg_daily_dismissed": 1.2857142857142858
+      },
+      "u_012": {
+        "user_id": "u_012",
+        "dnd_window": [
+          "23:00",
+          "07:00"
+        ],
+        "openness_rate": 0.5523809523809524,
+        "reply_rate": 0.22413793103448276,
+        "dismissal_rate": 0.1619047619047619,
+        "report_tendency": 4,
+        "avg_daily_notifications": 7.5,
+        "avg_daily_dismissed": 1.2142857142857142
+      },
+      "u_013": {
+        "user_id": "u_013",
+        "dnd_window": [
+          "22:00",
+          "08:00"
+        ],
+        "openness_rate": 0.7303370786516854,
+        "reply_rate": 0.24615384615384617,
+        "dismissal_rate": 0.24719101123595505,
+        "report_tendency": 1,
+        "avg_daily_notifications": 6.357142857142857,
+        "avg_daily_dismissed": 1.5714285714285714
+      },
+      "u_014": {
+        "user_id": "u_014",
+        "dnd_window": [
+          "21:30",
+          "06:30"
+        ],
+        "openness_rate": 1.125,
+        "reply_rate": 0.2638888888888889,
+        "dismissal_rate": 0.421875,
+        "report_tendency": 3,
+        "avg_daily_notifications": 4.571428571428571,
+        "avg_daily_dismissed": 1.9285714285714286
+      },
+      "u_015": {
+        "user_id": "u_015",
+        "dnd_window": [
+          "23:30",
+          "07:30"
+        ],
+        "openness_rate": 0.5266666666666666,
+        "reply_rate": 0.27848101265822783,
+        "dismissal_rate": 0.21333333333333335,
+        "report_tendency": 0,
+        "avg_daily_notifications": 10.714285714285714,
+        "avg_daily_dismissed": 2.2857142857142856
+      },
+      "u_016": {
+        "user_id": "u_016",
+        "dnd_window": [
+          "22:00",
+          "07:00"
+        ],
+        "openness_rate": 1.075,
+        "reply_rate": 0.29069767441860467,
+        "dismissal_rate": 0.3375,
+        "report_tendency": 2,
+        "avg_daily_notifications": 5.714285714285714,
+        "avg_daily_dismissed": 1.9285714285714286
+      },
+      "u_017": {
+        "user_id": "u_017",
+        "dnd_window": [
+          "21:00",
+          "06:30"
+        ],
+        "openness_rate": 1.3676470588235294,
+        "reply_rate": 0.3010752688172043,
+        "dismissal_rate": 0.36764705882352944,
+        "report_tendency": 4,
+        "avg_daily_notifications": 4.857142857142857,
+        "avg_daily_dismissed": 1.7857142857142858
+      },
+      "u_018": {
+        "user_id": "u_018",
+        "dnd_window": [
+          "22:30",
+          "07:30"
+        ],
+        "openness_rate": 1.0638297872340425,
+        "reply_rate": 0.31,
+        "dismissal_rate": 0.44680851063829785,
+        "report_tendency": 1,
+        "avg_daily_notifications": 6.714285714285714,
+        "avg_daily_dismissed": 3.0
+      },
+      "u_019": {
+        "user_id": "u_019",
+        "dnd_window": [
+          "22:00",
+          "08:00"
+        ],
+        "openness_rate": 0.5443037974683544,
+        "reply_rate": 0.13953488372093023,
+        "dismissal_rate": 0.3670886075949367,
+        "report_tendency": 3,
+        "avg_daily_notifications": 5.642857142857143,
+        "avg_daily_dismissed": 2.0714285714285716
+      },
+      "u_020": {
+        "user_id": "u_020",
+        "dnd_window": [
+          "00:00",
+          "07:00"
+        ],
+        "openness_rate": 0.4854368932038835,
+        "reply_rate": 0.18,
+        "dismissal_rate": 0.3592233009708738,
+        "report_tendency": 0,
+        "avg_daily_notifications": 7.357142857142857,
+        "avg_daily_dismissed": 2.642857142857143
+      },
+      "u_021": {
+        "user_id": "u_021",
+        "dnd_window": [
+          "22:00",
+          "07:00"
+        ],
+        "openness_rate": 1.1176470588235294,
+        "reply_rate": 0.21052631578947367,
+        "dismissal_rate": 0.19607843137254902,
+        "report_tendency": 2,
+        "avg_daily_notifications": 3.642857142857143,
+        "avg_daily_dismissed": 0.7142857142857143
+      },
+      "u_022": {
+        "user_id": "u_022",
+        "dnd_window": [
+          "23:00",
+          "08:00"
+        ],
+        "openness_rate": 0.5871559633027523,
+        "reply_rate": 0.234375,
+        "dismissal_rate": 0.13761467889908258,
+        "report_tendency": 4,
+        "avg_daily_notifications": 7.785714285714286,
+        "avg_daily_dismissed": 1.0714285714285714
+      },
+      "u_023": {
+        "user_id": "u_023",
+        "dnd_window": [
+          "21:30",
+          "07:30"
+        ],
+        "openness_rate": 0.8809523809523809,
+        "reply_rate": 0.24324324324324326,
+        "dismissal_rate": 0.36904761904761907,
+        "report_tendency": 1,
+        "avg_daily_notifications": 6.0,
+        "avg_daily_dismissed": 2.2142857142857144
+      },
+      "u_024": {
+        "user_id": "u_024",
+        "dnd_window": [
+          "00:00",
+          "06:30"
+        ],
+        "openness_rate": 0.75,
+        "reply_rate": 0.2692307692307692,
+        "dismissal_rate": 0.2403846153846154,
+        "report_tendency": 3,
+        "avg_daily_notifications": 7.428571428571429,
+        "avg_daily_dismissed": 1.7857142857142858
+      },
+      "u_025": {
+        "user_id": "u_025",
+        "dnd_window": [
+          "22:30",
+          "07:00"
+        ],
+        "openness_rate": 1.0897435897435896,
+        "reply_rate": 0.2823529411764706,
+        "dismissal_rate": 0.38461538461538464,
+        "report_tendency": 0,
+        "avg_daily_notifications": 5.571428571428571,
+        "avg_daily_dismissed": 2.142857142857143
+      },
+      "u_026": {
+        "user_id": "u_026",
+        "dnd_window": [
+          "21:00",
+          "06:00"
+        ],
+        "openness_rate": 1.3142857142857143,
+        "reply_rate": 0.29347826086956524,
+        "dismissal_rate": 0.5,
+        "report_tendency": 2,
+        "avg_daily_notifications": 5.0,
+        "avg_daily_dismissed": 2.5
+      },
+      "u_027": {
+        "user_id": "u_027",
+        "dnd_window": [
+          "22:00",
+          "07:00"
+        ],
+        "openness_rate": 0.25892857142857145,
+        "reply_rate": 0.13793103448275862,
+        "dismissal_rate": 0.4375,
+        "report_tendency": 2,
+        "avg_daily_notifications": 8.0,
+        "avg_daily_dismissed": 3.5
+      },
+      "u_028": {
+        "user_id": "u_028",
+        "dnd_window": [
+          "23:30",
+          "07:30"
+        ],
+        "openness_rate": 0.3333333333333333,
+        "reply_rate": 0.11904761904761904,
+        "dismissal_rate": 0.2777777777777778,
+        "report_tendency": 1,
+        "avg_daily_notifications": 9.0,
+        "avg_daily_dismissed": 2.5
+      },
+      "u_029": {
+        "user_id": "u_029",
+        "dnd_window": [
+          "22:00",
+          "08:30"
+        ],
+        "openness_rate": 0.538961038961039,
+        "reply_rate": 0.26506024096385544,
+        "dismissal_rate": 0.38311688311688313,
+        "report_tendency": 1,
+        "avg_daily_notifications": 11.0,
+        "avg_daily_dismissed": 4.214285714285714
+      },
+      "u_030": {
+        "user_id": "u_030",
+        "dnd_window": [
+          "22:30",
+          "07:30"
+        ],
+        "openness_rate": 0.6021505376344086,
+        "reply_rate": 0.19642857142857142,
+        "dismissal_rate": 0.2903225806451613,
+        "report_tendency": 0,
+        "avg_daily_notifications": 6.642857142857143,
+        "avg_daily_dismissed": 1.9285714285714286
+      },
+      "u_031": {
+        "user_id": "u_031",
+        "dnd_window": [
+          "21:30",
+          "06:30"
+        ],
+        "openness_rate": 0.6631578947368421,
+        "reply_rate": 0.2222222222222222,
+        "dismissal_rate": 0.45263157894736844,
+        "report_tendency": 2,
+        "avg_daily_notifications": 6.785714285714286,
+        "avg_daily_dismissed": 3.0714285714285716
+      },
+      "u_032": {
+        "user_id": "u_032",
+        "dnd_window": [
+          "23:00",
+          "07:00"
+        ],
+        "openness_rate": 0.7142857142857143,
+        "reply_rate": 0.24285714285714285,
+        "dismissal_rate": 0.1326530612244898,
+        "report_tendency": 4,
+        "avg_daily_notifications": 7.0,
+        "avg_daily_dismissed": 0.9285714285714286
+      },
+      "u_033": {
+        "user_id": "u_033",
+        "dnd_window": [
+          "22:00",
+          "08:00"
+        ],
+        "openness_rate": 0.13548387096774195,
+        "reply_rate": 0.14285714285714285,
+        "dismissal_rate": 0.4967741935483871,
+        "report_tendency": 3,
+        "avg_daily_notifications": 11.071428571428571,
+        "avg_daily_dismissed": 5.5
+      },
+      "u_034": {
+        "user_id": "u_034",
+        "dnd_window": [
+          "21:30",
+          "06:30"
+        ],
+        "openness_rate": 1.05,
+        "reply_rate": 0.27380952380952384,
+        "dismissal_rate": 0.2875,
+        "report_tendency": 3,
+        "avg_daily_notifications": 5.714285714285714,
+        "avg_daily_dismissed": 1.6428571428571428
+      },
+      "u_035": {
+        "user_id": "u_035",
+        "dnd_window": [
+          "23:30",
+          "07:30"
+        ],
+        "openness_rate": 0.6691176470588235,
+        "reply_rate": 0.2857142857142857,
+        "dismissal_rate": 0.20588235294117646,
+        "report_tendency": 0,
+        "avg_daily_notifications": 9.714285714285714,
+        "avg_daily_dismissed": 2.0
+      },
+      "u_036": {
+        "user_id": "u_036",
+        "dnd_window": [
+          "22:00",
+          "07:00"
+        ],
+        "openness_rate": 1.53125,
+        "reply_rate": 0.29591836734693877,
+        "dismissal_rate": 0.421875,
+        "report_tendency": 2,
+        "avg_daily_notifications": 4.571428571428571,
+        "avg_daily_dismissed": 1.9285714285714286
+      },
+      "u_037": {
+        "user_id": "u_037",
+        "dnd_window": [
+          "21:00",
+          "06:30"
+        ],
+        "openness_rate": 0.803921568627451,
+        "reply_rate": 0.7804878048780488,
+        "dismissal_rate": 0.7254901960784313,
+        "report_tendency": 4,
+        "avg_daily_notifications": 3.642857142857143,
+        "avg_daily_dismissed": 2.642857142857143
+      },
+      "u_038": {
+        "user_id": "u_038",
+        "dnd_window": [
+          "22:30",
+          "07:30"
+        ],
+        "openness_rate": 0.5161290322580645,
+        "reply_rate": 0.14583333333333334,
+        "dismissal_rate": 0.45161290322580644,
+        "report_tendency": 1,
+        "avg_daily_notifications": 6.642857142857143,
+        "avg_daily_dismissed": 3.0
+      },
+      "u_039": {
+        "user_id": "u_039",
+        "dnd_window": [
+          "22:00",
+          "08:00"
+        ],
+        "openness_rate": 0.5789473684210527,
+        "reply_rate": 0.18181818181818182,
+        "dismissal_rate": 0.42105263157894735,
+        "report_tendency": 3,
+        "avg_daily_notifications": 6.785714285714286,
+        "avg_daily_dismissed": 2.857142857142857
+      },
+      "u_040": {
+        "user_id": "u_040",
+        "dnd_window": [
+          "00:00",
+          "07:00"
+        ],
+        "openness_rate": 0.1111111111111111,
+        "reply_rate": 0.11764705882352941,
+        "dismissal_rate": 0.49019607843137253,
+        "report_tendency": 4,
+        "avg_daily_notifications": 10.928571428571429,
+        "avg_daily_dismissed": 5.357142857142857
+      },
+      "u_041": {
+        "user_id": "u_041",
+        "dnd_window": [
+          "22:00",
+          "07:00"
+        ],
+        "openness_rate": 1.1129032258064515,
+        "reply_rate": 0.2318840579710145,
+        "dismissal_rate": 0.7903225806451613,
+        "report_tendency": 2,
+        "avg_daily_notifications": 4.428571428571429,
+        "avg_daily_dismissed": 3.5
+      },
+      "u_042": {
+        "user_id": "u_042",
+        "dnd_window": [
+          "23:00",
+          "08:00"
+        ],
+        "openness_rate": 0.7307692307692307,
+        "reply_rate": 0.25,
+        "dismissal_rate": 0.10576923076923077,
+        "report_tendency": 4,
+        "avg_daily_notifications": 7.428571428571429,
+        "avg_daily_dismissed": 0.7857142857142857
+      },
+      "u_043": {
+        "user_id": "u_043",
+        "dnd_window": [
+          "21:30",
+          "07:30"
+        ],
+        "openness_rate": 0.9431818181818182,
+        "reply_rate": 0.26506024096385544,
+        "dismissal_rate": 0.18181818181818182,
+        "report_tendency": 1,
+        "avg_daily_notifications": 6.285714285714286,
+        "avg_daily_dismissed": 1.1428571428571428
+      },
+      "u_044": {
+        "user_id": "u_044",
+        "dnd_window": [
+          "00:00",
+          "06:30"
+        ],
+        "openness_rate": 0.8823529411764706,
+        "reply_rate": 0.2777777777777778,
+        "dismissal_rate": 0.20588235294117646,
+        "report_tendency": 3,
+        "avg_daily_notifications": 7.285714285714286,
+        "avg_daily_dismissed": 1.5
+      },
+      "u_045": {
+        "user_id": "u_045",
+        "dnd_window": [
+          "22:30",
+          "07:00"
+        ],
+        "openness_rate": 1.1022727272727273,
+        "reply_rate": 0.28865979381443296,
+        "dismissal_rate": 0.29545454545454547,
+        "report_tendency": 0,
+        "avg_daily_notifications": 6.285714285714286,
+        "avg_daily_dismissed": 1.8571428571428572
+      },
+      "u_046": {
+        "user_id": "u_046",
+        "dnd_window": [
+          "21:00",
+          "06:00"
+        ],
+        "openness_rate": 0.5333333333333333,
+        "reply_rate": 0.775,
+        "dismissal_rate": 0.41333333333333333,
+        "report_tendency": 2,
+        "avg_daily_notifications": 5.357142857142857,
+        "avg_daily_dismissed": 2.2142857142857144
+      },
+      "u_047": {
+        "user_id": "u_047",
+        "dnd_window": [
+          "22:00",
+          "07:00"
+        ],
+        "openness_rate": 0.3949579831932773,
+        "reply_rate": 0.1276595744680851,
+        "dismissal_rate": 0.3025210084033613,
+        "report_tendency": 4,
+        "avg_daily_notifications": 8.5,
+        "avg_daily_dismissed": 2.5714285714285716
+      },
+      "u_048": {
+        "user_id": "u_048",
+        "dnd_window": [
+          "23:30",
+          "07:30"
+        ],
+        "openness_rate": 0.5142857142857142,
+        "reply_rate": 0.16666666666666666,
+        "dismissal_rate": 0.3523809523809524,
+        "report_tendency": 1,
+        "avg_daily_notifications": 7.5,
+        "avg_daily_dismissed": 2.642857142857143
+      },
+      "u_049": {
+        "user_id": "u_049",
+        "dnd_window": [
+          "22:00",
+          "08:30"
+        ],
+        "openness_rate": 1.0,
+        "reply_rate": 0.19672131147540983,
+        "dismissal_rate": 0.7540983606557377,
+        "report_tendency": 3,
+        "avg_daily_notifications": 4.357142857142857,
+        "avg_daily_dismissed": 3.2857142857142856
+      },
+      "u_050": {
+        "user_id": "u_050",
+        "dnd_window": [
+          "22:30",
+          "07:30"
+        ],
+        "openness_rate": 0.6666666666666666,
+        "reply_rate": 0.22058823529411764,
+        "dismissal_rate": 0.39215686274509803,
+        "report_tendency": 0,
+        "avg_daily_notifications": 7.285714285714286,
+        "avg_daily_dismissed": 2.857142857142857
+      },
+      "u_051": {
+        "user_id": "u_051",
+        "dnd_window": [
+          "21:30",
+          "06:30"
+        ],
+        "openness_rate": 0.8522727272727273,
+        "reply_rate": 0.24,
+        "dismissal_rate": 0.6363636363636364,
+        "report_tendency": 2,
+        "avg_daily_notifications": 6.285714285714286,
+        "avg_daily_dismissed": 4.0
+      },
+      "u_052": {
+        "user_id": "u_052",
+        "dnd_window": [
+          "23:00",
+          "07:00"
+        ],
+        "openness_rate": 0.803921568627451,
+        "reply_rate": 0.25609756097560976,
+        "dismissal_rate": 0.08823529411764706,
+        "report_tendency": 4,
+        "avg_daily_notifications": 7.285714285714286,
+        "avg_daily_dismissed": 0.6428571428571429
+      },
+      "u_053": {
+        "user_id": "u_053",
+        "dnd_window": [
+          "22:00",
+          "08:00"
+        ],
+        "openness_rate": 0.9888888888888889,
+        "reply_rate": 0.2696629213483146,
+        "dismissal_rate": 0.15555555555555556,
+        "report_tendency": 1,
+        "avg_daily_notifications": 6.428571428571429,
+        "avg_daily_dismissed": 1.0
+      },
+      "u_054": {
+        "user_id": "u_054",
+        "dnd_window": [
+          "21:30",
+          "06:30"
+        ],
+        "openness_rate": 1.263157894736842,
+        "reply_rate": 0.28125,
+        "dismissal_rate": 0.25,
+        "report_tendency": 3,
+        "avg_daily_notifications": 5.428571428571429,
+        "avg_daily_dismissed": 1.3571428571428572
+      }
+    },
+    "user_group_profiles": {
+      "u_001": [
+        {
+          "user_id": "u_001",
+          "group_id": "group_001",
+          "group_type": "family",
+          "role": "admin",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_001",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_001",
+          "group_id": "group_003",
+          "group_type": "school_group",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_001",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.18181818181818182,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_001",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2222222222222222,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_001",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2727272727272727,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_001",
+          "group_id": "group_015",
+          "group_type": "book_club",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_001",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_001",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        }
+      ],
+      "u_002": [
+        {
+          "user_id": "u_002",
+          "group_id": "group_001",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_002",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2857142857142857,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_002",
+          "group_id": "group_003",
+          "group_type": "school_group",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2222222222222222,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_002",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_002",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_002",
+          "group_id": "group_013",
+          "group_type": "tech_community",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.1111111111111111,
+          "dismissals_in_group": 0
+        }
+      ],
+      "u_003": [
+        {
+          "user_id": "u_003",
+          "group_id": "group_001",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.5,
+          "reply_rate": 0.5,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_003",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_003",
+          "group_id": "group_004",
+          "group_type": "coworker",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_003",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_003",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_003",
+          "group_id": "group_015",
+          "group_type": "book_club",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3333333333333333,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_003",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.26666666666666666,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_003",
+          "group_id": "group_017",
+          "group_type": "caregiving",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 3
+        }
+      ],
+      "u_007": [
+        {
+          "user_id": "u_007",
+          "group_id": "group_001",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 9
+        },
+        {
+          "user_id": "u_007",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_007",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_007",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2222222222222222,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_007",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_007",
+          "group_id": "group_015",
+          "group_type": "book_club",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_007",
+          "group_id": "group_017",
+          "group_type": "caregiving",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.125,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_007",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.1111111111111111,
+          "dismissals_in_group": 4
+        }
+      ],
+      "u_011": [
+        {
+          "user_id": "u_011",
+          "group_id": "group_001",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_011",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.4666666666666667,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_011",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.25,
+          "reply_rate": 0.5833333333333334,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_011",
+          "group_id": "group_013",
+          "group_type": "tech_community",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_011",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_011",
+          "group_id": "group_015",
+          "group_type": "book_club",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.18181818181818182,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_011",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_011",
+          "group_id": "group_017",
+          "group_type": "caregiving",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.23076923076923078,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_011",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.4666666666666667,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_011",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        }
+      ],
+      "u_013": [
+        {
+          "user_id": "u_013",
+          "group_id": "group_001",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3333333333333333,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_013",
+          "group_id": "group_003",
+          "group_type": "school_group",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_013",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.375,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_013",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_013",
+          "group_id": "group_013",
+          "group_type": "tech_community",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_013",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_013",
+          "group_id": "group_015",
+          "group_type": "book_club",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_013",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_013",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_013",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 5
+        }
+      ],
+      "u_017": [
+        {
+          "user_id": "u_017",
+          "group_id": "group_001",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_017",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.38461538461538464,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_017",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_017",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2857142857142857,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_017",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_017",
+          "group_id": "group_015",
+          "group_type": "book_club",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.35714285714285715,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_017",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2777777777777778,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_017",
+          "group_id": "group_017",
+          "group_type": "caregiving",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.36363636363636365,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_017",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3,
+          "dismissals_in_group": 5
+        }
+      ],
+      "u_021": [
+        {
+          "user_id": "u_021",
+          "group_id": "group_001",
+          "group_type": "family",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_021",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2222222222222222,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_021",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_021",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3333333333333333,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_021",
+          "group_id": "group_013",
+          "group_type": "tech_community",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_021",
+          "group_id": "group_015",
+          "group_type": "book_club",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.125,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_021",
+          "group_id": "group_018",
+          "group_type": "sports",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_021",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_021",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3333333333333333,
+          "dismissals_in_group": 0
+        }
+      ],
+      "u_026": [
+        {
+          "user_id": "u_026",
+          "group_id": "group_001",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_026",
+          "group_id": "group_003",
+          "group_type": "school_group",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_026",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.23076923076923078,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_026",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_026",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_026",
+          "group_id": "group_015",
+          "group_type": "book_club",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_026",
+          "group_id": "group_018",
+          "group_type": "sports",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0769230769230769,
+          "reply_rate": 0.15384615384615385,
+          "dismissals_in_group": 4
+        }
+      ],
+      "u_031": [
+        {
+          "user_id": "u_031",
+          "group_id": "group_001",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_031",
+          "group_id": "group_003",
+          "group_type": "school_group",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.15384615384615385,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_031",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.23529411764705882,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_031",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_031",
+          "group_id": "group_015",
+          "group_type": "book_club",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.22727272727272727,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_031",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 5
+        }
+      ],
+      "u_036": [
+        {
+          "user_id": "u_036",
+          "group_id": "group_001",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_036",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3076923076923077,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_036",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2631578947368421,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_036",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_036",
+          "group_id": "group_013",
+          "group_type": "tech_community",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_036",
+          "group_id": "group_015",
+          "group_type": "book_club",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_036",
+          "group_id": "group_017",
+          "group_type": "caregiving",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.35714285714285715,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_036",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3125,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_036",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_036",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_036",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2857142857142857,
+          "dismissals_in_group": 5
+        }
+      ],
+      "u_039": [
+        {
+          "user_id": "u_039",
+          "group_id": "group_001",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_039",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_039",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_039",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.1875,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_039",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_039",
+          "group_id": "group_018",
+          "group_type": "sports",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_039",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        }
+      ],
+      "u_041": [
+        {
+          "user_id": "u_041",
+          "group_id": "group_001",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.125,
+          "reply_rate": 0.125,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_041",
+          "group_id": "group_008",
+          "group_type": "extended_family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.090909090909091,
+          "reply_rate": 0.18181818181818182,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_041",
+          "group_id": "group_009",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.5,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_041",
+          "group_id": "group_017",
+          "group_type": "caregiving",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.090909090909091,
+          "reply_rate": 0.18181818181818182,
+          "dismissals_in_group": 1
+        }
+      ],
+      "u_042": [
+        {
+          "user_id": "u_042",
+          "group_id": "group_001",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.4,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_042",
+          "group_id": "group_008",
+          "group_type": "extended_family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.25,
+          "reply_rate": 0.125,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_042",
+          "group_id": "group_009",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        }
+      ],
+      "u_051": [
+        {
+          "user_id": "u_051",
+          "group_id": "group_001",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.2857142857142857,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_051",
+          "group_id": "group_008",
+          "group_type": "extended_family",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_051",
+          "group_id": "group_003",
+          "group_type": "school_group",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.25,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_051",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_051",
+          "group_id": "group_009",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_051",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_051",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_051",
+          "group_id": "group_015",
+          "group_type": "book_club",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_051",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_051",
+          "group_id": "group_017",
+          "group_type": "caregiving",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.2222222222222222,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_051",
+          "group_id": "group_018",
+          "group_type": "sports",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_051",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_051",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_051",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.2857142857142857,
+          "dismissals_in_group": 4
+        }
+      ],
+      "u_004": [
+        {
+          "user_id": "u_004",
+          "group_id": "group_008",
+          "group_type": "extended_family",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_004",
+          "group_id": "group_004",
+          "group_type": "coworker",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3076923076923077,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_004",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_004",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2222222222222222,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_004",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3333333333333333,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_004",
+          "group_id": "group_018",
+          "group_type": "sports",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2727272727272727,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_004",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 3
+        }
+      ],
+      "u_005": [
+        {
+          "user_id": "u_005",
+          "group_id": "group_008",
+          "group_type": "extended_family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3333333333333333,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_005",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_005",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2727272727272727,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_005",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_005",
+          "group_id": "group_013",
+          "group_type": "tech_community",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_005",
+          "group_id": "group_015",
+          "group_type": "book_club",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.18181818181818182,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_005",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_005",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_005",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.46153846153846156,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_005",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 3
+        }
+      ],
+      "u_006": [
+        {
+          "user_id": "u_006",
+          "group_id": "group_008",
+          "group_type": "extended_family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.1428571428571428,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_006",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_006",
+          "group_id": "group_003",
+          "group_type": "school_group",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.5789473684210527,
+          "reply_rate": 0.631578947368421,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_006",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0526315789473684,
+          "reply_rate": 0.21052631578947367,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_006",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.5,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_006",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.2,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_006",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.125,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 1
+        }
+      ],
+      "u_008": [
+        {
+          "user_id": "u_008",
+          "group_id": "group_008",
+          "group_type": "extended_family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.21428571428571427,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_008",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.21739130434782608,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_008",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_008",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_008",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.21739130434782608,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_008",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.5,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_008",
+          "group_id": "group_018",
+          "group_type": "sports",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 2.0,
+          "reply_rate": 0.5,
+          "dismissals_in_group": 9
+        },
+        {
+          "user_id": "u_008",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        }
+      ],
+      "u_012": [
+        {
+          "user_id": "u_012",
+          "group_id": "group_008",
+          "group_type": "extended_family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_012",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_012",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_012",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.36363636363636365,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_012",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2222222222222222,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_012",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_012",
+          "group_id": "group_018",
+          "group_type": "sports",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.125,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_012",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 5
+        }
+      ],
+      "u_015": [
+        {
+          "user_id": "u_015",
+          "group_id": "group_008",
+          "group_type": "extended_family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.2,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_015",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_015",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_015",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.125,
+          "reply_rate": 0.125,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_015",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0434782608695652,
+          "reply_rate": 0.21739130434782608,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_015",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.21739130434782608,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_015",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.5,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_015",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.1428571428571428,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 6
+        }
+      ],
+      "u_020": [
+        {
+          "user_id": "u_020",
+          "group_id": "group_008",
+          "group_type": "extended_family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.23076923076923078,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_020",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_020",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.1111111111111111,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_020",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.375,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_020",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_020",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        }
+      ],
+      "u_024": [
+        {
+          "user_id": "u_024",
+          "group_id": "group_008",
+          "group_type": "extended_family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.3333333333333333,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_024",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.3333333333333333,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_024",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_024",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.35294117647058826,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_024",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_024",
+          "group_id": "group_013",
+          "group_type": "tech_community",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3125,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_024",
+          "group_id": "group_017",
+          "group_type": "caregiving",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2222222222222222,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_024",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2222222222222222,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_024",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_024",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2222222222222222,
+          "dismissals_in_group": 3
+        }
+      ],
+      "u_028": [
+        {
+          "user_id": "u_028",
+          "group_id": "group_008",
+          "group_type": "extended_family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_028",
+          "group_id": "group_004",
+          "group_type": "coworker",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.08333333333333333,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_028",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.125,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_028",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_028",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_028",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_028",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 1
+        }
+      ],
+      "u_033": [
+        {
+          "user_id": "u_033",
+          "group_id": "group_008",
+          "group_type": "extended_family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_033",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 2.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 9
+        },
+        {
+          "user_id": "u_033",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 4.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_033",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 2.0,
+          "reply_rate": 0.5,
+          "dismissals_in_group": 9
+        },
+        {
+          "user_id": "u_033",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 2.0,
+          "reply_rate": 0.5,
+          "dismissals_in_group": 9
+        }
+      ],
+      "u_037": [
+        {
+          "user_id": "u_037",
+          "group_id": "group_008",
+          "group_type": "extended_family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.45454545454545453,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_037",
+          "group_id": "group_003",
+          "group_type": "school_group",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.4,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_037",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_037",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.4444444444444444,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_037",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_037",
+          "group_id": "group_018",
+          "group_type": "sports",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_037",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3333333333333333,
+          "dismissals_in_group": 0
+        }
+      ],
+      "u_009": [
+        {
+          "user_id": "u_009",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.1428571428571428,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_009",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.125,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_009",
+          "group_id": "group_009",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_009",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.23529411764705882,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_009",
+          "group_id": "group_013",
+          "group_type": "tech_community",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.21428571428571427,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_009",
+          "group_id": "group_015",
+          "group_type": "book_club",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_009",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2631578947368421,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_009",
+          "group_id": "group_017",
+          "group_type": "caregiving",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_009",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0434782608695652,
+          "reply_rate": 0.5217391304347826,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_009",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 1
+        }
+      ],
+      "u_010": [
+        {
+          "user_id": "u_010",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_010",
+          "group_id": "group_003",
+          "group_type": "school_group",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_010",
+          "group_id": "group_004",
+          "group_type": "coworker",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_010",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_010",
+          "group_id": "group_009",
+          "group_type": "family",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_010",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_010",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.125,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_010",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 2
+        }
+      ],
+      "u_014": [
+        {
+          "user_id": "u_014",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_014",
+          "group_id": "group_004",
+          "group_type": "coworker",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_014",
+          "group_id": "group_009",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.18181818181818182,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_014",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_014",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2857142857142857,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_014",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_014",
+          "group_id": "group_017",
+          "group_type": "caregiving",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.5,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_014",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 4
+        }
+      ],
+      "u_018": [
+        {
+          "user_id": "u_018",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.23809523809523808,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_018",
+          "group_id": "group_004",
+          "group_type": "coworker",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2631578947368421,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_018",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2222222222222222,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_018",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_018",
+          "group_id": "group_009",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_018",
+          "group_id": "group_018",
+          "group_type": "sports",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2857142857142857,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_018",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_018",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_018",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_018",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2727272727272727,
+          "dismissals_in_group": 1
+        }
+      ],
+      "u_019": [
+        {
+          "user_id": "u_019",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_019",
+          "group_id": "group_003",
+          "group_type": "school_group",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_019",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_019",
+          "group_id": "group_013",
+          "group_type": "tech_community",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_019",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_019",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_019",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.18181818181818182,
+          "dismissals_in_group": 6
+        }
+      ],
+      "u_022": [
+        {
+          "user_id": "u_022",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3333333333333333,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_022",
+          "group_id": "group_004",
+          "group_type": "coworker",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_022",
+          "group_id": "group_009",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_022",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2727272727272727,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_022",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3333333333333333,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_022",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_022",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2222222222222222,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_022",
+          "group_id": "group_017",
+          "group_type": "caregiving",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_022",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2727272727272727,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_022",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_022",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_022",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        }
+      ],
+      "u_025": [
+        {
+          "user_id": "u_025",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.25,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_025",
+          "group_id": "group_004",
+          "group_type": "coworker",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.23076923076923078,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_025",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_025",
+          "group_id": "group_009",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_025",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.25,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_025",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2727272727272727,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_025",
+          "group_id": "group_018",
+          "group_type": "sports",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.23529411764705882,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_025",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 2
+        }
+      ],
+      "u_027": [
+        {
+          "user_id": "u_027",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_027",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 9
+        },
+        {
+          "user_id": "u_027",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_027",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_027",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3333333333333333,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_027",
+          "group_id": "group_013",
+          "group_type": "tech_community",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_027",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_027",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_027",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 3
+        }
+      ],
+      "u_030": [
+        {
+          "user_id": "u_030",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_030",
+          "group_id": "group_004",
+          "group_type": "coworker",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_030",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_030",
+          "group_id": "group_009",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_030",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_030",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_030",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_030",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_030",
+          "group_id": "group_017",
+          "group_type": "caregiving",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_030",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_030",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        }
+      ],
+      "u_032": [
+        {
+          "user_id": "u_032",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_032",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_032",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_032",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_032",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.25,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_032",
+          "group_id": "group_013",
+          "group_type": "tech_community",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_032",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.125,
+          "reply_rate": 0.125,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_032",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.17647058823529413,
+          "dismissals_in_group": 2
+        }
+      ],
+      "u_035": [
+        {
+          "user_id": "u_035",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_035",
+          "group_id": "group_004",
+          "group_type": "coworker",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2857142857142857,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_035",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3333333333333333,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_035",
+          "group_id": "group_009",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_035",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.26666666666666666,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_035",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.18181818181818182,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_035",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_035",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_035",
+          "group_id": "group_018",
+          "group_type": "sports",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0714285714285714,
+          "reply_rate": 0.5714285714285714,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_035",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2857142857142857,
+          "dismissals_in_group": 5
+        }
+      ],
+      "u_038": [
+        {
+          "user_id": "u_038",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_038",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_038",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_038",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_038",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_038",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_038",
+          "group_id": "group_017",
+          "group_type": "caregiving",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_038",
+          "group_id": "group_018",
+          "group_type": "sports",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_038",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_038",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_038",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 0
+        }
+      ],
+      "u_040": [
+        {
+          "user_id": "u_040",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_040",
+          "group_id": "group_004",
+          "group_type": "coworker",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_040",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 9
+        },
+        {
+          "user_id": "u_040",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_040",
+          "group_id": "group_009",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_040",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_040",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_040",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 9
+        },
+        {
+          "user_id": "u_040",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_040",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_040",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 9
+        }
+      ],
+      "u_049": [
+        {
+          "user_id": "u_049",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.5384615384615385,
+          "reply_rate": 0.15384615384615385,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_049",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_049",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.1666666666666667,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_049",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.18181818181818182,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_049",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_049",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.18181818181818182,
+          "dismissals_in_group": 0
+        }
+      ],
+      "u_043": [
+        {
+          "user_id": "u_043",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2857142857142857,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_043",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2857142857142857,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_043",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.23809523809523808,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_043",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 1
+        }
+      ],
+      "u_044": [
+        {
+          "user_id": "u_044",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.2,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_044",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.4,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_044",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.25,
+          "reply_rate": 0.125,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_044",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        }
+      ],
+      "u_053": [
+        {
+          "user_id": "u_053",
+          "group_id": "group_002",
+          "group_type": "society",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2727272727272727,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_053",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2727272727272727,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_053",
+          "group_id": "group_011",
+          "group_type": "society",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2608695652173913,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_053",
+          "group_id": "group_020",
+          "group_type": "safety",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2727272727272727,
+          "dismissals_in_group": 3
+        }
+      ],
+      "u_016": [
+        {
+          "user_id": "u_016",
+          "group_id": "group_003",
+          "group_type": "school_group",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_016",
+          "group_id": "group_004",
+          "group_type": "coworker",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.23076923076923078,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_016",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_016",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3333333333333333,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_016",
+          "group_id": "group_009",
+          "group_type": "family",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 6
+        },
+        {
+          "user_id": "u_016",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.25,
+          "reply_rate": 0.5833333333333334,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_016",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.1111111111111111,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_016",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.18181818181818182,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_016",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.5,
+          "dismissals_in_group": 0
+        }
+      ],
+      "u_023": [
+        {
+          "user_id": "u_023",
+          "group_id": "group_003",
+          "group_type": "school_group",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.9523809523809523,
+          "reply_rate": 0.23809523809523808,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_023",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_023",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 3.0,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_023",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 3.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_023",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.8571428571428572,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        }
+      ],
+      "u_029": [
+        {
+          "user_id": "u_029",
+          "group_id": "group_003",
+          "group_type": "school_group",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.75,
+          "reply_rate": 0.25,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_029",
+          "group_id": "group_004",
+          "group_type": "coworker",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.5714285714285714,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_029",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.5,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_029",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 4
+        },
+        {
+          "user_id": "u_029",
+          "group_id": "group_018",
+          "group_type": "sports",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.7058823529411764,
+          "reply_rate": 0.23529411764705882,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_029",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.5,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 4
+        }
+      ],
+      "u_034": [
+        {
+          "user_id": "u_034",
+          "group_id": "group_003",
+          "group_type": "school_group",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.6666666666666667,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_034",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.2962962962962963,
+          "reply_rate": 0.2222222222222222,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_034",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.4285714285714286,
+          "reply_rate": 0.14285714285714285,
+          "dismissals_in_group": 5
+        },
+        {
+          "user_id": "u_034",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_034",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.3157894736842106,
+          "reply_rate": 0.15789473684210525,
+          "dismissals_in_group": 6
+        }
+      ],
+      "u_045": [
+        {
+          "user_id": "u_045",
+          "group_id": "group_003",
+          "group_type": "school_group",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.6333333333333333,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_045",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.6,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 1
+        }
+      ],
+      "u_046": [
+        {
+          "user_id": "u_046",
+          "group_id": "group_004",
+          "group_type": "coworker",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.42857142857142855,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_046",
+          "group_id": "group_013",
+          "group_type": "tech_community",
+          "role": "admin",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.42857142857142855,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_046",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.0,
+          "reply_rate": 0.3333333333333333,
+          "dismissals_in_group": 5
+        }
+      ],
+      "u_048": [
+        {
+          "user_id": "u_048",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.1666666666666665,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_048",
+          "group_id": "group_012",
+          "group_type": "college_faculty",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 5.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_048",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.2,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_048",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.2,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 1
+        }
+      ],
+      "u_052": [
+        {
+          "user_id": "u_052",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.3,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_052",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.3333333333333333,
+          "reply_rate": 0.1111111111111111,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_052",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.3,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_052",
+          "group_id": "group_018",
+          "group_type": "sports",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 2.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_052",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.8,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_052",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.6,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_052",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 1.3076923076923077,
+          "reply_rate": 0.15384615384615385,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_052",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "member",
+          "group_muted": true,
+          "read_rate": 2.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        }
+      ],
+      "u_050": [
+        {
+          "user_id": "u_050",
+          "group_id": "group_005",
+          "group_type": "marketplace",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 3.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_050",
+          "group_id": "group_014",
+          "group_type": "local_food",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 4.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        },
+        {
+          "user_id": "u_050",
+          "group_id": "group_019",
+          "group_type": "finance_help",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.25,
+          "reply_rate": 0.16666666666666666,
+          "dismissals_in_group": 3
+        },
+        {
+          "user_id": "u_050",
+          "group_id": "group_022",
+          "group_type": "real_estate",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.375,
+          "reply_rate": 0.125,
+          "dismissals_in_group": 3
+        }
+      ],
+      "u_054": [
+        {
+          "user_id": "u_054",
+          "group_id": "group_006",
+          "group_type": "friends",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.625,
+          "reply_rate": 0.125,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_054",
+          "group_id": "group_007",
+          "group_type": "alumni",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_054",
+          "group_id": "group_013",
+          "group_type": "tech_community",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_054",
+          "group_id": "group_015",
+          "group_type": "book_club",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.625,
+          "reply_rate": 0.125,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_054",
+          "group_id": "group_016",
+          "group_type": "dance_class",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 2.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_054",
+          "group_id": "group_017",
+          "group_type": "caregiving",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.7272727272727273,
+          "reply_rate": 0.18181818181818182,
+          "dismissals_in_group": 2
+        },
+        {
+          "user_id": "u_054",
+          "group_id": "group_018",
+          "group_type": "sports",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.7,
+          "reply_rate": 0.2,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_054",
+          "group_id": "group_021",
+          "group_type": "investment_tips",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 1.6363636363636365,
+          "reply_rate": 0.18181818181818182,
+          "dismissals_in_group": 1
+        },
+        {
+          "user_id": "u_054",
+          "group_id": "group_023",
+          "group_type": "college_students",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 0.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 1
+        }
+      ],
+      "u_047": [
+        {
+          "user_id": "u_047",
+          "group_id": "group_010",
+          "group_type": "society",
+          "role": "member",
+          "group_muted": false,
+          "read_rate": 3.0,
+          "reply_rate": 0.0,
+          "dismissals_in_group": 0
+        }
+      ]
+    },
+    "user_business_profiles": {
+      "u_001": [
+        {
+          "user_id": "u_001",
+          "business_id": "business_001",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "recent_grocery_delivery",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.8333333333333334,
+          "dismissal_rate_30d": 0.16666666666666666,
+          "user_reports_on_business_30d": 3
+        },
+        {
+          "user_id": "u_001",
+          "business_id": "business_003",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "old_sale_subscription",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 81,
+          "open_rate_30d": 0.125,
+          "dismissal_rate_30d": 0.875,
+          "user_reports_on_business_30d": 5
+        },
+        {
+          "user_id": "u_001",
+          "business_id": "business_010",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "weekly_grocery_order",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 81,
+          "open_rate_30d": 0.4,
+          "dismissal_rate_30d": 0.3,
+          "user_reports_on_business_30d": 3
+        }
+      ],
+      "u_002": [
+        {
+          "user_id": "u_002",
+          "business_id": "business_003",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "active_sale_subscription",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.875,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 5
+        },
+        {
+          "user_id": "u_002",
+          "business_id": "business_002",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "active_bank_account",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 47,
+          "open_rate_30d": 0.75,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 4
+        },
+        {
+          "user_id": "u_002",
+          "business_id": "business_096",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "recent_movie_feedback",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 132,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 8
+        }
+      ],
+      "u_003": [
+        {
+          "user_id": "u_003",
+          "business_id": "business_004",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "upcoming_clinic_appointment",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.75,
+          "dismissal_rate_30d": 0.125,
+          "user_reports_on_business_30d": 6
+        },
+        {
+          "user_id": "u_003",
+          "business_id": "business_080",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "prescription_order",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 84,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 10
+        },
+        {
+          "user_id": "u_003",
+          "business_id": "business_024",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "doctor_search",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 55,
+          "open_rate_30d": 0.8,
+          "dismissal_rate_30d": 0.1,
+          "user_reports_on_business_30d": 8
+        }
+      ],
+      "u_004": [
+        {
+          "user_id": "u_004",
+          "business_id": "business_005",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "confirmed_travel_booking",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.7,
+          "dismissal_rate_30d": 0.1,
+          "user_reports_on_business_30d": 7
+        },
+        {
+          "user_id": "u_004",
+          "business_id": "business_092",
+          "is_verified": true,
+          "domain_matches": false,
+          "relationship_reason": "confirmed_travel_booking",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.7142857142857143,
+          "dismissal_rate_30d": 0.14285714285714285,
+          "user_reports_on_business_30d": 4
+        },
+        {
+          "user_id": "u_004",
+          "business_id": "business_025",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "recent_flight_booking",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 42,
+          "open_rate_30d": 0.3333333333333333,
+          "dismissal_rate_30d": 0.3333333333333333,
+          "user_reports_on_business_30d": 9
+        },
+        {
+          "user_id": "u_004",
+          "business_id": "business_090",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "hotel_search",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 151,
+          "open_rate_30d": 0.25,
+          "dismissal_rate_30d": 0.375,
+          "user_reports_on_business_30d": 2
+        }
+      ],
+      "u_005": [
+        {
+          "user_id": "u_005",
+          "business_id": "business_002",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "recent_card_payment",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.7272727272727273,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 4
+        },
+        {
+          "user_id": "u_005",
+          "business_id": "business_050",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "active_us_bank_account",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 58,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 7
+        },
+        {
+          "user_id": "u_005",
+          "business_id": "business_082",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "trading_account_update",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 29,
+          "open_rate_30d": 0.4,
+          "dismissal_rate_30d": 0.3,
+          "user_reports_on_business_30d": 3
+        }
+      ],
+      "u_006": [
+        {
+          "user_id": "u_006",
+          "business_id": "business_006",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "monthly_utility_bill",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.8333333333333334,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 8
+        },
+        {
+          "user_id": "u_006",
+          "business_id": "business_015",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "society_payment_receipt",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 45,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 8
+        },
+        {
+          "user_id": "u_006",
+          "business_id": "business_018",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "active_bank_account",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 16,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 2
+        }
+      ],
+      "u_007": [
+        {
+          "user_id": "u_007",
+          "business_id": "business_003",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "old_sale_subscription",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 108,
+          "open_rate_30d": 0.1,
+          "dismissal_rate_30d": 0.9,
+          "user_reports_on_business_30d": 5
+        },
+        {
+          "user_id": "u_007",
+          "business_id": "business_005",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "abandoned_travel_search",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 131,
+          "open_rate_30d": 0.0,
+          "dismissal_rate_30d": 1.0,
+          "user_reports_on_business_30d": 7
+        },
+        {
+          "user_id": "u_007",
+          "business_id": "business_067",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "old_retail_coupon_list",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.1111111111111111,
+          "dismissal_rate_30d": 0.8888888888888888,
+          "user_reports_on_business_30d": 6
+        },
+        {
+          "user_id": "u_007",
+          "business_id": "business_094",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "food_promotions_opted_out",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 58,
+          "open_rate_30d": 0.0,
+          "dismissal_rate_30d": 1.0,
+          "user_reports_on_business_30d": 6
+        },
+        {
+          "user_id": "u_007",
+          "business_id": "business_092",
+          "is_verified": true,
+          "domain_matches": false,
+          "relationship_reason": "travel_promotions_opted_out",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 21,
+          "open_rate_30d": 0.1111111111111111,
+          "dismissal_rate_30d": 0.8888888888888888,
+          "user_reports_on_business_30d": 4
+        }
+      ],
+      "u_008": [
+        {
+          "user_id": "u_008",
+          "business_id": "business_067",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "active_retail_membership",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.8888888888888888,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 6
+        },
+        {
+          "user_id": "u_008",
+          "business_id": "business_001",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "old_delivery_order",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 119,
+          "open_rate_30d": 0.6666666666666666,
+          "dismissal_rate_30d": 0.3333333333333333,
+          "user_reports_on_business_30d": 3
+        },
+        {
+          "user_id": "u_008",
+          "business_id": "business_011",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "fashion_sale_subscription",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 128,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.5,
+          "user_reports_on_business_30d": 4
+        }
+      ],
+      "u_009": [
+        {
+          "user_id": "u_009",
+          "business_id": "business_002",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "active_bank_account",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.8,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 4
+        },
+        {
+          "user_id": "u_009",
+          "business_id": "business_014",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "active_payment_wallet",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.7857142857142857,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 7
+        },
+        {
+          "user_id": "u_009",
+          "business_id": "business_001",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "frequent_delivery_updates",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.9090909090909091,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 3
+        }
+      ],
+      "u_010": [
+        {
+          "user_id": "u_010",
+          "business_id": "business_001",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "delivery_expected_today",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 3
+        },
+        {
+          "user_id": "u_010",
+          "business_id": "business_008",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "frequent_food_orders",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 131,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 10
+        },
+        {
+          "user_id": "u_010",
+          "business_id": "business_009",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "quick_delivery_orders",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 102,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 2
+        }
+      ],
+      "u_011": [
+        {
+          "user_id": "u_011",
+          "business_id": "business_006",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "monthly_maintenance_payment",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.8571428571428571,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 8
+        },
+        {
+          "user_id": "u_011",
+          "business_id": "business_015",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "society_payment_receipt",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 118,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 8
+        },
+        {
+          "user_id": "u_011",
+          "business_id": "business_079",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "repair_booking",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 89,
+          "open_rate_30d": 0.8,
+          "dismissal_rate_30d": 0.1,
+          "user_reports_on_business_30d": 9
+        }
+      ],
+      "u_012": [
+        {
+          "user_id": "u_012",
+          "business_id": "business_005",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "saved_travel_search",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.8,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 7
+        },
+        {
+          "user_id": "u_012",
+          "business_id": "business_092",
+          "is_verified": true,
+          "domain_matches": false,
+          "relationship_reason": "travel_package_interest",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.75,
+          "dismissal_rate_30d": 0.125,
+          "user_reports_on_business_30d": 4
+        },
+        {
+          "user_id": "u_012",
+          "business_id": "business_093",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "business_payment_stack_interest",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 85,
+          "open_rate_30d": 0.75,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 5
+        }
+      ],
+      "u_013": [
+        {
+          "user_id": "u_013",
+          "business_id": "business_050",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "active_bank_account",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.7142857142857143,
+          "dismissal_rate_30d": 0.14285714285714285,
+          "user_reports_on_business_30d": 7
+        },
+        {
+          "user_id": "u_013",
+          "business_id": "business_053",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "active_global_bank_account",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 92,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 10
+        },
+        {
+          "user_id": "u_013",
+          "business_id": "business_056",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "travel_card_account",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 63,
+          "open_rate_30d": 0.4,
+          "dismissal_rate_30d": 0.3,
+          "user_reports_on_business_30d": 4
+        }
+      ],
+      "u_014": [
+        {
+          "user_id": "u_014",
+          "business_id": "business_032",
+          "is_verified": false,
+          "domain_matches": false,
+          "relationship_reason": "prescription_refill",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.6666666666666666,
+          "dismissal_rate_30d": 0.1111111111111111,
+          "user_reports_on_business_30d": 0
+        },
+        {
+          "user_id": "u_014",
+          "business_id": "business_101",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "caregiver_insurance_claim",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 79,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 4
+        },
+        {
+          "user_id": "u_014",
+          "business_id": "business_080",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "medicine_order",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 50,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 10
+        }
+      ],
+      "u_015": [
+        {
+          "user_id": "u_015",
+          "business_id": "business_052",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "active_credit_card",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.8333333333333334,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 9
+        },
+        {
+          "user_id": "u_015",
+          "business_id": "business_053",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "old_credit_card_account",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 74,
+          "open_rate_30d": 0.6666666666666666,
+          "dismissal_rate_30d": 0.3333333333333333,
+          "user_reports_on_business_30d": 10
+        },
+        {
+          "user_id": "u_015",
+          "business_id": "business_093",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "business_payment_stack_interest",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 85,
+          "open_rate_30d": 0.75,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 5
+        },
+        {
+          "user_id": "u_015",
+          "business_id": "business_106",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "security_webinar_registration",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 146,
+          "open_rate_30d": 0.6666666666666666,
+          "dismissal_rate_30d": 0.16666666666666666,
+          "user_reports_on_business_30d": 9
+        }
+      ],
+      "u_016": [
+        {
+          "user_id": "u_016",
+          "business_id": "business_058",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "frequent_food_orders",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.7777777777777778,
+          "dismissal_rate_30d": 0.1111111111111111,
+          "user_reports_on_business_30d": 6
+        },
+        {
+          "user_id": "u_016",
+          "business_id": "business_095",
+          "is_verified": true,
+          "domain_matches": false,
+          "relationship_reason": "campus_event_registration",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 53,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 7
+        },
+        {
+          "user_id": "u_016",
+          "business_id": "business_027",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "student_event_booking",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 24,
+          "open_rate_30d": 0.3333333333333333,
+          "dismissal_rate_30d": 0.3333333333333333,
+          "user_reports_on_business_30d": 2
+        }
+      ],
+      "u_017": [
+        {
+          "user_id": "u_017",
+          "business_id": "business_059",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "monthly_mobile_bill",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.75,
+          "dismissal_rate_30d": 0.125,
+          "user_reports_on_business_30d": 7
+        },
+        {
+          "user_id": "u_017",
+          "business_id": "business_095",
+          "is_verified": true,
+          "domain_matches": false,
+          "relationship_reason": "education_survey_or_event",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 40,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 7
+        },
+        {
+          "user_id": "u_017",
+          "business_id": "business_027",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "workshop_registration",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 149,
+          "open_rate_30d": 0.4,
+          "dismissal_rate_30d": 0.3,
+          "user_reports_on_business_30d": 2
+        }
+      ],
+      "u_018": [
+        {
+          "user_id": "u_018",
+          "business_id": "business_060",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "recent_return_pickup",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.875,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 8
+        },
+        {
+          "user_id": "u_018",
+          "business_id": "business_027",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "local_event_booking",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 27,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 2
+        },
+        {
+          "user_id": "u_018",
+          "business_id": "business_030",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "book_adaptation_watchlist",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 136,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 5
+        }
+      ],
+      "u_019": [
+        {
+          "user_id": "u_019",
+          "business_id": "business_061",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "ride_booked_today",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.75,
+          "dismissal_rate_30d": 0.125,
+          "user_reports_on_business_30d": 9
+        },
+        {
+          "user_id": "u_019",
+          "business_id": "business_107",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "dance_class_booking",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 152,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 10
+        },
+        {
+          "user_id": "u_019",
+          "business_id": "business_027",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "dance_event_booking",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 123,
+          "open_rate_30d": 0.8,
+          "dismissal_rate_30d": 0.1,
+          "user_reports_on_business_30d": 2
+        }
+      ],
+      "u_020": [
+        {
+          "user_id": "u_020",
+          "business_id": "business_091",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "recent_product_purchase",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.8,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 3
+        },
+        {
+          "user_id": "u_020",
+          "business_id": "business_001",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "recent_delivery_order",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 139,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 3
+        },
+        {
+          "user_id": "u_020",
+          "business_id": "business_080",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "health_product_order",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 110,
+          "open_rate_30d": 0.3333333333333333,
+          "dismissal_rate_30d": 0.3333333333333333,
+          "user_reports_on_business_30d": 10
+        }
+      ],
+      "u_021": [
+        {
+          "user_id": "u_021",
+          "business_id": "business_092",
+          "is_verified": true,
+          "domain_matches": false,
+          "relationship_reason": "travel_package_interest",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.75,
+          "dismissal_rate_30d": 0.125,
+          "user_reports_on_business_30d": 4
+        },
+        {
+          "user_id": "u_021",
+          "business_id": "business_105",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "land_listing_watchlist",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 126,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 8
+        }
+      ],
+      "u_022": [
+        {
+          "user_id": "u_022",
+          "business_id": "business_093",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "business_payment_stack_interest",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 85,
+          "open_rate_30d": 0.75,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 5
+        },
+        {
+          "user_id": "u_022",
+          "business_id": "business_015",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "vendor_payment_account",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 113,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 8
+        }
+      ],
+      "u_023": [
+        {
+          "user_id": "u_023",
+          "business_id": "business_094",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "new_food_delivery_signup",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 80,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 6
+        },
+        {
+          "user_id": "u_023",
+          "business_id": "business_008",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "frequent_food_orders",
+          "allows_promotions": true,
+          "opted_out": false,
+          "last_activity_days_ago": 100,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 10
+        }
+      ],
+      "u_024": [
+        {
+          "user_id": "u_024",
+          "business_id": "business_095",
+          "is_verified": true,
+          "domain_matches": false,
+          "relationship_reason": "registered_for_campus_event",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 13,
+          "open_rate_30d": 0.7142857142857143,
+          "dismissal_rate_30d": 0.14285714285714285,
+          "user_reports_on_business_30d": 7
+        },
+        {
+          "user_id": "u_024",
+          "business_id": "business_099",
+          "is_verified": false,
+          "domain_matches": false,
+          "relationship_reason": "tech_webinar_registration",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 87,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 26
+        }
+      ],
+      "u_025": [
+        {
+          "user_id": "u_025",
+          "business_id": "business_096",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "recent_movie_booking",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 132,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 8
+        },
+        {
+          "user_id": "u_025",
+          "business_id": "business_027",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "movie_or_event_booking",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 74,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 2
+        }
+      ],
+      "u_026": [
+        {
+          "user_id": "u_026",
+          "business_id": "business_092",
+          "is_verified": true,
+          "domain_matches": false,
+          "relationship_reason": "travel_promotions_opted_out",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 21,
+          "open_rate_30d": 0.1111111111111111,
+          "dismissal_rate_30d": 0.8888888888888888,
+          "user_reports_on_business_30d": 4
+        },
+        {
+          "user_id": "u_026",
+          "business_id": "business_005",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "old_travel_search",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 61,
+          "open_rate_30d": 0.0,
+          "dismissal_rate_30d": 1.0,
+          "user_reports_on_business_30d": 7
+        }
+      ],
+      "u_027": [
+        {
+          "user_id": "u_027",
+          "business_id": "business_094",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "food_promotions_opted_out",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 58,
+          "open_rate_30d": 0.0,
+          "dismissal_rate_30d": 1.0,
+          "user_reports_on_business_30d": 6
+        },
+        {
+          "user_id": "u_027",
+          "business_id": "business_008",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "recent_food_order",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 48,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 10
+        }
+      ],
+      "u_040": [
+        {
+          "user_id": "u_040",
+          "business_id": "business_002",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "loan_promotions_opted_out",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 33,
+          "open_rate_30d": 0.0,
+          "dismissal_rate_30d": 1.0,
+          "user_reports_on_business_30d": 4
+        },
+        {
+          "user_id": "u_040",
+          "business_id": "business_003",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "old_sale_subscription",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 17,
+          "open_rate_30d": 0.0,
+          "dismissal_rate_30d": 1.0,
+          "user_reports_on_business_30d": 5
+        },
+        {
+          "user_id": "u_040",
+          "business_id": "business_098",
+          "is_verified": false,
+          "domain_matches": false,
+          "relationship_reason": "ignored_loan_message",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 126,
+          "open_rate_30d": 0.0,
+          "dismissal_rate_30d": 1.0,
+          "user_reports_on_business_30d": 23
+        }
+      ],
+      "u_028": [
+        {
+          "user_id": "u_028",
+          "business_id": "business_106",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "security_incident_updates",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 64,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 9
+        },
+        {
+          "user_id": "u_028",
+          "business_id": "business_015",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "vendor_security_notice",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 35,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 8
+        }
+      ],
+      "u_029": [
+        {
+          "user_id": "u_029",
+          "business_id": "business_015",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "work_vendor_payment",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 51,
+          "open_rate_30d": 0.6666666666666666,
+          "dismissal_rate_30d": 0.16666666666666666,
+          "user_reports_on_business_30d": 8
+        },
+        {
+          "user_id": "u_029",
+          "business_id": "business_001",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "office_delivery_order",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 22,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 3
+        }
+      ],
+      "u_030": [
+        {
+          "user_id": "u_030",
+          "business_id": "business_008",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "daytime_food_order",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 38,
+          "open_rate_30d": 0.6,
+          "dismissal_rate_30d": 0.2,
+          "user_reports_on_business_30d": 10
+        },
+        {
+          "user_id": "u_030",
+          "business_id": "business_030",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "streaming_subscription",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 147,
+          "open_rate_30d": 0.6666666666666666,
+          "dismissal_rate_30d": 0.3333333333333333,
+          "user_reports_on_business_30d": 5
+        }
+      ],
+      "u_031": [
+        {
+          "user_id": "u_031",
+          "business_id": "business_095",
+          "is_verified": true,
+          "domain_matches": false,
+          "relationship_reason": "school_event_registration",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 25,
+          "open_rate_30d": 0.5714285714285714,
+          "dismissal_rate_30d": 0.21428571428571427,
+          "user_reports_on_business_30d": 7
+        },
+        {
+          "user_id": "u_031",
+          "business_id": "business_014",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "school_fee_payment",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 134,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 7
+        }
+      ],
+      "u_032": [
+        {
+          "user_id": "u_032",
+          "business_id": "business_011",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "marketplace_style_interest",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 150,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 4
+        },
+        {
+          "user_id": "u_032",
+          "business_id": "business_008",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "local_food_orders",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 121,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 10
+        }
+      ],
+      "u_033": [
+        {
+          "user_id": "u_033",
+          "business_id": "business_067",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "old_retail_subscription",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 137,
+          "open_rate_30d": 0.1,
+          "dismissal_rate_30d": 0.9,
+          "user_reports_on_business_30d": 6
+        },
+        {
+          "user_id": "u_033",
+          "business_id": "business_003",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "old_sale_subscription",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 108,
+          "open_rate_30d": 0.1,
+          "dismissal_rate_30d": 0.9,
+          "user_reports_on_business_30d": 5
+        }
+      ],
+      "u_034": [
+        {
+          "user_id": "u_034",
+          "business_id": "business_099",
+          "is_verified": false,
+          "domain_matches": false,
+          "relationship_reason": "community_workshop_registration",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 124,
+          "open_rate_30d": 0.6,
+          "dismissal_rate_30d": 0.2,
+          "user_reports_on_business_30d": 26
+        },
+        {
+          "user_id": "u_034",
+          "business_id": "business_027",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "event_registration",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 95,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 2
+        }
+      ],
+      "u_035": [
+        {
+          "user_id": "u_035",
+          "business_id": "business_030",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "streaming_subscription",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 111,
+          "open_rate_30d": 0.7272727272727273,
+          "dismissal_rate_30d": 0.2727272727272727,
+          "user_reports_on_business_30d": 5
+        },
+        {
+          "user_id": "u_035",
+          "business_id": "business_031",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "music_subscription",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 82,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 6
+        }
+      ],
+      "u_036": [
+        {
+          "user_id": "u_036",
+          "business_id": "business_104",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "traffic_challan_notice",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 98,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 7
+        },
+        {
+          "user_id": "u_036",
+          "business_id": "business_102",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "vehicle_insurance_renewal",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 69,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 5
+        },
+        {
+          "user_id": "u_036",
+          "business_id": "business_103",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "vehicle_service_booking",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 40,
+          "open_rate_30d": 0.3333333333333333,
+          "dismissal_rate_30d": 0.3333333333333333,
+          "user_reports_on_business_30d": 6
+        }
+      ],
+      "u_037": [
+        {
+          "user_id": "u_037",
+          "business_id": "business_109",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "hotel_booking",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 85,
+          "open_rate_30d": 0.6666666666666666,
+          "dismissal_rate_30d": 0.16666666666666666,
+          "user_reports_on_business_30d": 3
+        },
+        {
+          "user_id": "u_037",
+          "business_id": "business_108",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "restaurant_reservation",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 56,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 2
+        }
+      ],
+      "u_038": [
+        {
+          "user_id": "u_038",
+          "business_id": "business_110",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "cashback_wallet",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 72,
+          "open_rate_30d": 0.6,
+          "dismissal_rate_30d": 0.2,
+          "user_reports_on_business_30d": 4
+        },
+        {
+          "user_id": "u_038",
+          "business_id": "business_067",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "coupon_membership",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 43,
+          "open_rate_30d": 0.5,
+          "dismissal_rate_30d": 0.25,
+          "user_reports_on_business_30d": 6
+        }
+      ],
+      "u_039": [
+        {
+          "user_id": "u_039",
+          "business_id": "business_027",
+          "is_verified": true,
+          "domain_matches": true,
+          "relationship_reason": "alumni_event_booking",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 59,
+          "open_rate_30d": 0.5714285714285714,
+          "dismissal_rate_30d": 0.21428571428571427,
+          "user_reports_on_business_30d": 2
+        },
+        {
+          "user_id": "u_039",
+          "business_id": "business_095",
+          "is_verified": true,
+          "domain_matches": false,
+          "relationship_reason": "career_event_registration",
+          "allows_promotions": false,
+          "opted_out": true,
+          "last_activity_days_ago": 30,
+          "open_rate_30d": 1.0,
+          "dismissal_rate_30d": 0.0,
+          "user_reports_on_business_30d": 7
+        }
+      ]
+    },
+    "behavioral_memory_profiles": {
+      "u_008": {
+        "user_id": "u_008",
+        "scam_report_count": 3,
+        "forward_ignore_count": 0,
+        "template_fatigue": {
+          "business_036": 3
+        },
+        "reply_urgency_count": 0
+      },
+      "u_011": {
+        "user_id": "u_011",
+        "scam_report_count": 4,
+        "forward_ignore_count": 2,
+        "template_fatigue": {},
+        "reply_urgency_count": 1
+      },
+      "u_032": {
+        "user_id": "u_032",
+        "scam_report_count": 1,
+        "forward_ignore_count": 1,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_003": {
+        "user_id": "u_003",
+        "scam_report_count": 0,
+        "forward_ignore_count": 5,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_001": {
+        "user_id": "u_001",
+        "scam_report_count": 2,
+        "forward_ignore_count": 6,
+        "template_fatigue": {
+          "business_036": 1
+        },
+        "reply_urgency_count": 0
+      },
+      "u_016": {
+        "user_id": "u_016",
+        "scam_report_count": 4,
+        "forward_ignore_count": 0,
+        "template_fatigue": {
+          "business_064": 4
+        },
+        "reply_urgency_count": 0
+      },
+      "u_005": {
+        "user_id": "u_005",
+        "scam_report_count": 9,
+        "forward_ignore_count": 1,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_037": {
+        "user_id": "u_037",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_040": {
+        "user_id": "u_040",
+        "scam_report_count": 8,
+        "forward_ignore_count": 2,
+        "template_fatigue": {
+          "business_003": 1,
+          "business_002": 1,
+          "business_098": 2
+        },
+        "reply_urgency_count": 0
+      },
+      "u_009": {
+        "user_id": "u_009",
+        "scam_report_count": 0,
+        "forward_ignore_count": 1,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_014": {
+        "user_id": "u_014",
+        "scam_report_count": 0,
+        "forward_ignore_count": 2,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_028": {
+        "user_id": "u_028",
+        "scam_report_count": 4,
+        "forward_ignore_count": 1,
+        "template_fatigue": {
+          "business_100": 1
+        },
+        "reply_urgency_count": 0
+      },
+      "u_010": {
+        "user_id": "u_010",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {
+          "business_099": 1
+        },
+        "reply_urgency_count": 0
+      },
+      "u_029": {
+        "user_id": "u_029",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_021": {
+        "user_id": "u_021",
+        "scam_report_count": 1,
+        "forward_ignore_count": 1,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_027": {
+        "user_id": "u_027",
+        "scam_report_count": 2,
+        "forward_ignore_count": 0,
+        "template_fatigue": {
+          "business_094": 1
+        },
+        "reply_urgency_count": 0
+      },
+      "u_033": {
+        "user_id": "u_033",
+        "scam_report_count": 1,
+        "forward_ignore_count": 0,
+        "template_fatigue": {
+          "business_067": 1,
+          "business_003": 1
+        },
+        "reply_urgency_count": 0
+      },
+      "u_012": {
+        "user_id": "u_012",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {
+          "business_098": 2
+        },
+        "reply_urgency_count": 0
+      },
+      "u_019": {
+        "user_id": "u_019",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_038": {
+        "user_id": "u_038",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_002": {
+        "user_id": "u_002",
+        "scam_report_count": 3,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_006": {
+        "user_id": "u_006",
+        "scam_report_count": 3,
+        "forward_ignore_count": 1,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_004": {
+        "user_id": "u_004",
+        "scam_report_count": 2,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_007": {
+        "user_id": "u_007",
+        "scam_report_count": 0,
+        "forward_ignore_count": 1,
+        "template_fatigue": {
+          "business_003": 5,
+          "business_094": 5,
+          "business_067": 2,
+          "business_011": 1,
+          "business_092": 3
+        },
+        "reply_urgency_count": 0
+      },
+      "u_030": {
+        "user_id": "u_030",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_035": {
+        "user_id": "u_035",
+        "scam_report_count": 0,
+        "forward_ignore_count": 2,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_013": {
+        "user_id": "u_013",
+        "scam_report_count": 4,
+        "forward_ignore_count": 0,
+        "template_fatigue": {
+          "business_062": 3,
+          "business_063": 1
+        },
+        "reply_urgency_count": 0
+      },
+      "u_024": {
+        "user_id": "u_024",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_015": {
+        "user_id": "u_015",
+        "scam_report_count": 3,
+        "forward_ignore_count": 0,
+        "template_fatigue": {
+          "business_097": 3
+        },
+        "reply_urgency_count": 0
+      },
+      "u_026": {
+        "user_id": "u_026",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {
+          "business_092": 1,
+          "business_005": 1
+        },
+        "reply_urgency_count": 0
+      },
+      "u_023": {
+        "user_id": "u_023",
+        "scam_report_count": 0,
+        "forward_ignore_count": 1,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_025": {
+        "user_id": "u_025",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_018": {
+        "user_id": "u_018",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_020": {
+        "user_id": "u_020",
+        "scam_report_count": 0,
+        "forward_ignore_count": 1,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_031": {
+        "user_id": "u_031",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_039": {
+        "user_id": "u_039",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_022": {
+        "user_id": "u_022",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_017": {
+        "user_id": "u_017",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_034": {
+        "user_id": "u_034",
+        "scam_report_count": 0,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      },
+      "u_036": {
+        "user_id": "u_036",
+        "scam_report_count": 1,
+        "forward_ignore_count": 0,
+        "template_fatigue": {},
+        "reply_urgency_count": 0
+      }
+    },
+    "generated_at": "2026-08-01T20:29:15.660933+00:00"
+  }
+}

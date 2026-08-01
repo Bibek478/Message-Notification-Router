@@ -7,10 +7,10 @@ Dataset CSVs
     │
     ▼
 ┌─────────────────────────────┐
-│   Profile Pre-computation   │  (run once before inference)
-│   (Pydantic models)         │
+│   Profile Pre-computation   │  (read/write JSON cache in profiles/)
+│   (Pydantic / JSON files)   │
 └────────────┬────────────────┘
-             │  profiles dict keyed by user_id / (user_id, group_id) / (user_id, business_id)
+             │  profiles dict loaded from cache or parsed from CSV
              ▼
 ┌─────────────────────────────┐
 │   Evidence Index Build      │  (run once before inference)
@@ -117,7 +117,7 @@ hackerrank-orchestrate-august26/
 │   ├── main.py                  # Entry point, orchestrates the full run loop
 │   ├── io_utils.py              # Reading dataset/ CSVs, writing output.csv
 │   ├── schemas.py               # Pydantic models for profiles and structural boundaries
-│   ├── profiles.py              # Profile pre-computation builders (CSV -> Pydantic objects)
+│   ├── profiles.py              # Profile pre-computation builders + caching serialization
 │   ├── evidence.py              # BM25 + semantic vector similarity indexes and retrieval
 │   ├── prompt_builder.py        # Assembles Gemini prompts from profiles, evidence, and media
 │   ├── model_client.py          # Gemini API wrapper for inference, returns structured RouterOutput
@@ -129,6 +129,7 @@ hackerrank-orchestrate-august26/
 │   ├── test_decision.py         # Unit tests for decision logic using mock RouterOutput
 │   ├── test_guardrails.py       # Unit tests verifying adversarial inputs/injection overrides
 │   └── golden/                  # Evaluation framework using sample_messages
+├── profiles/                    # Cache folder for precomputed user/group/business JSON profiles
 ├── dataset/                     # Provided (do not modify)
 ├── output.csv                   # Generated predictions
 ├── project-overview.md

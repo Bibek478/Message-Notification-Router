@@ -4,7 +4,7 @@ This file governs *how* we build. The platform's `AGENTS.md` at repo root govern
 
 ## Read Before Anything Else
 
-Read in this order before writing any code:
+Read and follow in this order before writing any code:
 
 1. `AGENTS.md` (repo root) — platform contract, logging rules, dataset/output spec. Non-negotiable, not ours to change.
 2. `context/project-overview.md` — problem scope, in/out of scope, MVP definition
