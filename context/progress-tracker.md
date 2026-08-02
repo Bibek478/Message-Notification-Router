@@ -84,11 +84,11 @@
 ## Phase 7 — Media Handling (Multimodal)
 > Goal: Pass images and voice notes directly to Gemini alongside the text prompt.
 
-- [ ] Update `code/model_client.py` to accept media parameters
-- [ ] Implement image attachment: load `dataset/media/images/{img_id}.jpg`, pass to Gemini Parts API
-- [ ] Implement audio attachment: load `dataset/media/audio/{vn_id}.mp3`, pass to Gemini Parts API
-- [ ] Test with at least 2 image messages + 2 voice messages from `messages.csv`
-- [ ] Verify: media-only messages (empty `message_text`) are handled gracefully
+- [x] Update `code/model_client.py` to accept media parameters
+- [x] Implement image attachment: load `dataset/media/images/{img_id}.jpg`, pass to Gemini Parts API
+- [x] Implement audio attachment: load `dataset/media/audio/{vn_id}.mp3`, pass to Gemini Parts API
+- [x] Test with at least 2 image messages + 2 voice messages from `messages.csv`
+- [x] Verify: media-only messages (empty `message_text`) are handled gracefully
 
 ---
 

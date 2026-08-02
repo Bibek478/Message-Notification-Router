@@ -180,3 +180,25 @@ def write_output(decisions: List[RoutingDecision], output_path: Path) -> None:
                 "confidence": round(d.confidence, 4),
                 "evidence_message_ids": evidence_str
             })
+
+
+def resolve_media_path(
+    media_type: str | None,
+    media_id: str | None,
+    data: DataStore,
+    dataset_dir: Path,
+) -> Path | None:
+    """Resolve the absolute Path for a given media_type and media_id from DataStore."""
+    if not media_type or not media_id:
+        return None
+
+    if media_type == "image":
+        for img in data.images:
+            if img.image_id == media_id:
+                return dataset_dir / img.file_path
+    elif media_type == "voice":
+        for vn in data.voice_notes:
+            if vn.voice_note_id == media_id:
+                return dataset_dir / vn.file_path
+
+    return None
