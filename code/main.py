@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 # Ensure the parent directory is in the python path for importing code.* modules
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from code.evidence import build_evidence_index, retrieve_evidence
 from code.io_utils import load_all_data
 from code.profiles import load_or_build_all_profiles, validate_profile_coverage
 
@@ -59,6 +60,20 @@ def main() -> None:
         else:
             missing = ", ".join(coverage_report.missing_user_ids)
             print(f"[main] VALIDATION FAILURE: Missing base profiles for message users: {missing}")
+
+        user_ids = sorted({row.user_id for row in data.message_history})
+        evidence_indexes = {
+            user_id: build_evidence_index(data.message_history, user_id=user_id)
+            for user_id in user_ids
+        }
+        sample_query = "urgent payment release package"
+        evidence_ids = retrieve_evidence(
+            evidence_indexes.get("u_001", evidence_indexes[next(iter(evidence_indexes))]),
+            user_id="u_001",
+            query_text=sample_query,
+            top_k=5,
+        )
+        print(f"[main] Evidence index ready for {len(evidence_indexes)} users; sample retrieval for u_001: {evidence_ids}")
             
     except Exception as e:
         print(f"[main] CRITICAL ERROR during dataset loading or validation: {e}")

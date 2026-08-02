@@ -40,21 +40,21 @@
 ## Phase 3 — Evidence Retrieval Index
 > Goal: Build BM25 + vector index over message_history; retrieve top-k evidence per message.
 
-- [ ] Create `code/evidence.py`
-- [ ] Implement BM25 index over `message_history.csv` texts (per user)
-- [ ] Implement vector embedding of message history using Gemini embedding API (or sentence-transformers)
-- [ ] Implement `retrieve_evidence(user_id, query_text, top_k=5) -> list[str]` (returns message IDs)
-- [ ] Implement hybrid re-ranking: combine BM25 + cosine similarity scores
-- [ ] Validate on sample_messages.csv: check that `evidence_message_ids` in samples appear in top results
+- [x] Create `code/evidence.py`
+- [x] Implement BM25 index over `message_history.csv` texts (per user)
+- [x] Implement vector embedding of message history using Gemini embedding API (or sentence-transformers)
+- [x] Implement `retrieve_evidence(user_id, query_text, top_k=5) -> list[str]` (returns message IDs)
+- [x] Implement hybrid re-ranking: combine BM25 + cosine similarity scores
+- [x] Validate on sample_messages.csv: check that `evidence_message_ids` in samples appear in top results
 
 ---
 
 ## Phase 4 — Model Client & Structured Output Schema
 > Goal: Set up Gemini API, implement structured model observations.
 
-- [ ] Create `code/model_client.py` and configure `google-generativeai` SDK with `GEMINI_API_KEY`
-- [ ] Implement `call_model(prompt: str, media: list | None) -> RouterOutput`
-- [ ] Test with 3 sample messages (text-only) → verify structured output parses correctly via Gemini response schemas
+- [x] Create `code/model_client.py` and configure `google-genai` SDK with `GEMINI_API_KEY`
+- [x] Implement `call_model(prompt: str, media: list | None) -> RouterOutput`
+- [x] Test with 3 sample messages (text-only) → verify structured output parses correctly via Gemini response schemas
 
 ---
 
