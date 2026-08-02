@@ -34,9 +34,9 @@ This log records the core design and architectural decisions made for the WhatsA
 ## [2026-08-01] DEC-04: Do-Not-Disturb (DND) Window Treatment
 
 * **Status:** Accepted
-* **Context:** Users have specified Do-Not-Disturb (DND) windows. Overriding all messages during DND may miss emergency notifications, while ignoring DND entirely defeats its purpose.
-* **Decision:** Treat the DND window as a "soft signal". Introduce the DND start/end times and the incoming message timestamp to the LLM prompt as context, rather than implementing a hard code-level block or override.
-* **Rationale:** Allows the router to make nuanced exceptions for high-urgency pings (e.g., family emergency, immediate transaction issues) while respecting the quiet window for standard or promotion notifications.
+* **Context:** Users have specified Do-Not-Disturb (DND) windows. The router still needs a clear rule for what happens when the model strongly prefers `notify` during quiet hours.
+* **Decision:** Treat DND as a prompt context signal, but enforce a deterministic post-model override in code: if the highest-confidence action is `notify` and the message is inside the user's DND window, reroute it to `digest` unless the message type is `urgent` or `payment`.
+* **Rationale:** This keeps the prompt aware of quiet hours without relying on the model to enforce policy, while still preserving exceptions for time-sensitive or transactional messages.
 
 ---
 

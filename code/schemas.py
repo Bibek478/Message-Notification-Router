@@ -1,5 +1,20 @@
-from typing import Literal
+from typing import Literal, TypeAlias
 from pydantic import BaseModel, Field
+
+AllowedAction: TypeAlias = Literal["notify", "digest", "mute"]
+AllowedMessageType: TypeAlias = Literal[
+    "personal",
+    "urgent",
+    "event",
+    "payment",
+    "business_update",
+    "promotion",
+    "greeting",
+    "forward",
+    "spam",
+    "scam",
+    "unknown",
+]
 
 # --- CSV Row Schemas ---
 
@@ -193,20 +208,25 @@ class PairProfile(BaseModel):
     typical_reaction_time_min: float | None
 
 class RouterOutput(BaseModel):
-    action: Literal["notify", "digest", "mute"]
-    message_type: Literal[
-        "personal", "urgent", "event", "payment", "business_update",
-        "promotion", "greeting", "forward", "spam", "scam", "unknown"
-    ]
+    action: AllowedAction
+    message_type: AllowedMessageType
     reason: str
     notify_confidence: float = Field(ge=0.0, le=1.0)
     digest_confidence: float = Field(ge=0.0, le=1.0)
     mute_confidence: float = Field(ge=0.0, le=1.0)
     evidence_message_ids: list[str]
 
+
+class DecisionContext(BaseModel):
+    message_id: str
+    message_created_at: str | None = None
+    dnd_window: tuple[str, str] | None = None
+
+
 class RoutingDecision(BaseModel):
-    action: Literal["notify", "digest", "mute"]
-    message_type: str
+    message_id: str
+    action: AllowedAction
+    message_type: AllowedMessageType
     reason: str
     confidence: float
     evidence_message_ids: list[str]

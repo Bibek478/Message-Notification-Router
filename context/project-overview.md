@@ -62,7 +62,7 @@ message_id, action, message_type, reason, confidence, evidence_message_ids
 - **Profile pre-computation**: All user/group/business behavioral data is loaded and structured into Pydantic profiles *before* inference, not per-message.
 - **Multimodal inference**: Images and voice notes are passed directly to Gemini — no separate OCR/ASR pipeline.
 - **Hybrid evidence retrieval**: BM25 + vector similarity over `message_history` to find the most relevant past messages as evidence.
-- **DND as soft signal**: The user's Do-Not-Disturb window influences routing confidence but is not a hard override.
+- **DND quiet-hours override**: During DND, would-be `notify` decisions are rerouted to `digest` unless the message type is `urgent` or `payment`.
 - **Prompt injection awareness**: Several messages in the dataset attempt to hijack routing decisions — mitigations are addressed in a dedicated guardrails phase.
 
 ---
